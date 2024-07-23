@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import DataComp from './components/molecules/DataComp';
 function App() {
   return (
     <div className="App">
-      <p>hello ,this is naveen</p>
+      <DataComp/>
     </div>
   );
 }
